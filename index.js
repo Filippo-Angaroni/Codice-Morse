@@ -1,7 +1,7 @@
 document.getElementById("raw-text").addEventListener("keyup", toMorse);
 
 function toMorse() {
-let raw_chars = [char_a, 
+let raw_chars = ['a', 
                 'b', 
                 'c', 
                 'd', 
