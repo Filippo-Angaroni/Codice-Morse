@@ -1,3 +1,5 @@
+document.getElementById("raw-text").addEventListener("keyup", toMorse);
+
 function toMorse() {
 let raw_chars = [char_a, 
                 'b', 
@@ -153,8 +155,6 @@ let morse_chars = [char_a,
                 char_dq,
                 char_sq
             ];
-
-document.getElementById("raw-text").addEventListener("keyup", toMorse);
 
 
     const raw_txt = document.getElementById("raw-text").innerHTML;
