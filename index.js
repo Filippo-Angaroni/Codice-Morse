@@ -157,17 +157,17 @@ let morse_chars = [char_a,
             ];
 
 
-    const raw_txt = document.getElementById("raw-text").innerHTML;
+    const raw_txt = document.getElementById("raw-text").value;
 
     let morse_txt = "";
 
-    raw_txt.forEach(c => {
-        morse_txt += morse_chars[raw_chars.indexOf(c)];
-    });
+    for (let i = 0; i < raw_txt.length; i++){
+        morse_txt += morse_chars[i] + " ";
+    };
 
-    console.log(morse_txt);
+    console.log(raw_txt.length);
 
-    document.getElementById("morse-text").innerHTML = morse_txt;
+    document.getElementById("morse-text").textContent = morse_txt;
 
     return 0;
 
