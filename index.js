@@ -166,7 +166,7 @@ let morse_chars = [char_a,
     let morse_txt = "";
 
     for (let i = 0; i < raw_txt.length; i++){
-        morse_txt += morse_chars[i] + " ";
+        morse_txt += raw_txt[i] + " ";
     };
 
     console.log(raw_txt.length);
