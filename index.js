@@ -46,7 +46,8 @@ let raw_chars = ['a',
                 '(',
                 ')',
                 '\"',
-                '\''
+                '\'',
+                ' '
             ];
 
 const char_a = "•-";
@@ -108,6 +109,8 @@ const char_dq = "---••";
 //'
 const char_sq = "----•";
 
+const char_sp = "/";
+
 let morse_chars = [char_a, 
                 char_b, 
                 char_c, 
@@ -153,7 +156,8 @@ let morse_chars = [char_a,
                 char_lp,
                 char_rp,
                 char_dq,
-                char_sq
+                char_sq,
+                char_sp
             ];
 
 
